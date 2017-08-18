@@ -1,0 +1,9 @@
+.. toctree::
+   :glob:
+
+.. _AccessingTheProject:
+
+Accessing the Project
+############################
+
+More information on A4MCAR project is found in the ``docs`` folder. Clone A4MCAR's repository to check out comprehensive documentation: :ref:`cloneour`.
