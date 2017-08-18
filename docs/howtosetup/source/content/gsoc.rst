@@ -15,7 +15,7 @@ In the scope of three of the projects, and especially parallel with the APP4MC P
 
 `Google Summer of Code <https://summerofcode.withgoogle.com>`_ is an annual program that is organized by Google Inc. and that is done for encouraging students to open-source projects in open-source organizations. In the program, Google Inc. delivers stipends to students who successfully complete the program. With the A4MCAR project, Mustafa Özçelikörs participated in Google Summer of Code 2017 with the supervision of `Robert Höttger <https://projects.eclipse.org/user/6264>`_ with `The Eclipse Foundation <https://eclipse.org/org/>`_ as the mentoring organization. 
 
-During his master studies and `Google Summer of Code 2017 participation <https://summerofcode.withgoogle.com/projects/#5257433030066176>`_, author of the A4MCAR project, `Mustafa Özçelikörs <http://github.com/mozcelikors>`_ has involved in both of the projects **A4MCAR** (mainly) and **Rover** in order to address several topics:
+During his master studies and `Google Summer of Code 2017 participation <https://summerofcode.withgoogle.com/projects/#5257433030066176>`_, author of the A4MCAR project, `Mustafa Özçelikörs <http://github.com/mozcelikors>`_ was involved in both of the projects **A4MCAR** (mainly) and **Rover** in order to address several topics:
 
 * Developing embedded drivers and libraries for embedded units
 * Developing means and tool support to test APP4MC
