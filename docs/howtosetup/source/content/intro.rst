@@ -19,7 +19,7 @@ What is A4MCAR?
 
 A4MCAR is a distributed and multi-core demonstrator RC-Car that is used in the demonstration of parallel applications on real embedded systems. It is originally developed to test and evaluate APP4MC tool. A4MCAR is a project that is developed in FH Dortmund IDiAL and is supported under Project AMALTHEA4public. The project is also granted by The Eclipse Foundation and Google Inc. during the participation to Google Summer of Code 2017 event. During the event, the developed applications have been distributed in open-source manner under Eclipse Public License (EPL). Thus, we hope to help those in the open-source community who are willing to address concurrency in their multi-core embedded applications with the help of the GSoC event.
 
-.. figure:: images/a4mcar.png
+.. figure:: ../a4mcarstatic/img/a4mcar.png
    :width: 80%
    :alt: A4MCAR
    :figclass: align-center
@@ -45,7 +45,7 @@ APP4MC targets multi-core and many-core platforms, while the main focus is the o
 
 Eclipse APP4MC platform editor window can be seen in the following figure: 
 
-.. figure:: images/app4mcenv.png
+.. figure:: ../a4mcarstatic/img/app4mcenv.png
    :width: 80%
    :alt: Eclipse APP4MC platform Editor Window
    :figclass: align-center
@@ -57,7 +57,7 @@ In the figure, Explorer window is used for finding models, performing operations
 
 APP4MC is a project that has a lot of synergies with its predecessor AMALTHEA4public project. APP4MC uses AMALTHEA models, which are XML models that describe software components and hardware platforms. Main operation of APP4MC involves modeling the system by creating AMALTHEA models and performing partitioning, mapping, optimization on parallel programs. APP4MC also has the ability to trace simulate parallel programs. Basic ingredients for an AMALTHEA model is illustrated in the following figure: 
 
-.. figure:: images/app4mcmodel.png
+.. figure:: ../a4mcarstatic/img/app4mcmodel.png
    :width: 80%
    :alt: AMALTHEA Model for APP4MC
    :figclass: align-center
@@ -82,7 +82,7 @@ An illustration of how parallel software can be designed for embedded multi-core
 * **Tracing**: By making use of binary tracing, AMALTHEA trace model can be observed and can be re-used to update the system model.
 
 .. _app4mcdesign: 
-.. figure:: images/app4mcdesign.png
+.. figure:: ../a4mcarstatic/img/app4mcdesign.png
    :width: 80%
    :alt: Illustration of how parallel software are designed using APP4MC platform
    :figclass: align-center
@@ -116,7 +116,7 @@ A4MCAR Methodology and Features
 As A4MCAR targets automotive industry and parallelization studies done by APP4MC, it features not only sensing and actuation related features but also applications that would help with task to core distributions and parallelization performance evaluation. One could see the featured applications for the A4MCAR in :ref:`tasksoverall`. 
 
 .. _tasksoverall:
-.. figure:: images/tasksoverall.png
+.. figure:: ../a4mcarstatic/img/tasksoverall.png
    :width: 100%
    :alt: Applications developed and/or maintained for A4MCAR
    :figclass: align-center

@@ -6,10 +6,10 @@ Google Summer of Code Contribution
 
 **A4MCAR Project** is a project that is initiated by `Fachhochschule Dortmund IDiAL Institute <http://fh-dortmund.de>`_. The institute is highly involved with the `AMALTHEA4public Project <http://www.amalthea-project.org>`_ ,its successor `APP4MC Project <http://www.eclipse.org/app4mc>`_ and `APPSTACLE Project <https://itea3.org/project/appstacle.html>`_ which are developed as `ITEA <http://itea3.org>`_ research projects and funded by Federal Ministry of Education and Research (BMBF) in Germany. The projects are strongly partnered with Bosch GmbH and Eclipse Foundation GmbH.
 
-.. image:: images/GSOC_Logo.png
+.. image:: ../a4mcarstatic/img/GSOC_Logo.png
    :width: 60%
    :align: center
-   :alt: images/GSOC_Logo.png
+   :alt: a4mcarstatic/img/GSOC_Logo.png
 
 In the scope of three of the projects, and especially parallel with the APP4MC Project, which aims to create an open-source platform that is used for engineering embedded multi-core and many-core software systems, the demonstrator projects **A4MCAR Project** and **Rover Project** are developed which are used effectively to test the tools and standards created by the IDiAL institute and evaluate the results. 
 

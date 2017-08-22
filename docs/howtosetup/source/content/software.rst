@@ -34,7 +34,7 @@ Then, move a4mcar folder to the ``/home/pi`` directory by running the following:
 Provided Filesystem 
 *********************
 
-.. figure:: images/a4mcarfilesystem.png
+.. figure:: ../a4mcarstatic/img/a4mcarfilesystem.png
    :width: 100%
    :alt: A4MCAR Filesystem
    :figclass: align-center
