@@ -3,3 +3,5 @@
 _build/
 *vscode*
 *pyc
+*~
+[Bb]uild/

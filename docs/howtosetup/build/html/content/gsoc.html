@@ -1,0 +1,256 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2. Google Summer of Code Contribution &mdash; A4MCAR Introduction and Setup 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="A4MCAR Introduction and Setup 1.0 documentation" href="../index.html"/>
+        <link rel="next" title="3. Accessing the Project" href="more.html"/>
+        <link rel="prev" title="1. Introduction" href="intro.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> A4MCAR Introduction and Setup
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">1. Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Google Summer of Code Contribution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="more.html">3. Accessing the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">4. Hardware Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="software.html">5. Software Setup</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">A4MCAR Introduction and Setup</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>2. Google Summer of Code Contribution</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/content/gsoc.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="toctree-wrapper compound">
+</div>
+<div class="section" id="google-summer-of-code-contribution">
+<h1>2. Google Summer of Code Contribution<a class="headerlink" href="#google-summer-of-code-contribution" title="Permalink to this headline">¶</a></h1>
+<p><strong>A4MCAR Project</strong> is a project that is initiated by <a class="reference external" href="http://fh-dortmund.de">Fachhochschule Dortmund IDiAL Institute</a>. The institute is highly involved with the <a class="reference external" href="http://www.amalthea-project.org">AMALTHEA4public Project</a> ,its successor <a class="reference external" href="http://www.eclipse.org/app4mc">APP4MC Project</a> and <a class="reference external" href="https://itea3.org/project/appstacle.html">APPSTACLE Project</a> which are developed as <a class="reference external" href="http://itea3.org">ITEA</a> research projects and funded by Federal Ministry of Education and Research (BMBF) in Germany. The projects are strongly partnered with Bosch GmbH and Eclipse Foundation GmbH.</p>
+<a class="reference internal image-reference" href="../_images/GSOC_Logo.png"><img alt="a4mcarstatic/img/GSOC_Logo.png" class="align-center" src="../_images/GSOC_Logo.png" style="width: 60%;" /></a>
+<p>In the scope of three of the projects, and especially parallel with the APP4MC Project, which aims to create an open-source platform that is used for engineering embedded multi-core and many-core software systems, the demonstrator projects <strong>A4MCAR Project</strong> and <strong>Rover Project</strong> are developed which are used effectively to test the tools and standards created by the IDiAL institute and evaluate the results.</p>
+<p><a class="reference external" href="https://summerofcode.withgoogle.com">Google Summer of Code</a> is an annual program that is organized by Google Inc. and that is done for encouraging students to open-source projects in open-source organizations. In the program, Google Inc. delivers stipends to students who successfully complete the program. With the A4MCAR project, Mustafa Özçelikörs participated in Google Summer of Code 2017 with the supervision of <a class="reference external" href="https://projects.eclipse.org/user/6264">Robert Höttger</a> with <a class="reference external" href="https://eclipse.org/org/">The Eclipse Foundation</a> as the mentoring organization.</p>
+<p>During his master studies and <a class="reference external" href="https://summerofcode.withgoogle.com/projects/#5257433030066176">Google Summer of Code 2017 participation</a>, author of the A4MCAR project, <a class="reference external" href="http://github.com/mozcelikors">Mustafa Özçelikörs</a> was involved in both of the projects <strong>A4MCAR</strong> (mainly) and <strong>Rover</strong> in order to address several topics:</p>
+<ul class="simple">
+<li>Developing embedded drivers and libraries for embedded units</li>
+<li>Developing means and tool support to test APP4MC</li>
+<li>Addressing schedulability and traceability of the programs</li>
+<li>Developing necessary Human Machine interfaces for embedded units</li>
+<li>Using APP4MC actively and reporting the bugs to the development team</li>
+<li>Developing interfaces for technologies such as cloud and IoT</li>
+</ul>
+<p>In order to learn more about the project or download the source code of <strong>A4MCAR</strong> and <strong>Rover</strong> projects, go to the link <a class="reference internal" href="more.html#accessingtheproject"><span class="std std-ref">Accessing the Project</span></a>.</p>
+<p>To see the commits done to the project, please follow the link <a class="reference external" href="http://git.eclipse.org/c/app4mc/org.eclipse.app4mc.examples.git/log/">http://git.eclipse.org/c/app4mc/org.eclipse.app4mc.examples.git/log/</a>.</p>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="more.html" class="btn btn-neutral float-right" title="3. Accessing the Project" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="intro.html" class="btn btn-neutral" title="1. Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, FH Dortmund.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
