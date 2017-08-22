@@ -41,6 +41,21 @@ Provided Filesystem
    :align: center
 
    A4MCAR Filesystem
+   
+The repository should have the following main folders:
+	
+*	**web_interface :**  The web interface that is developed for A4MCAR project which is used to control A4MCAR over remote Wi-Fi connection. In order to set up web_interface, run the setup script: ``web_interface/setup_web_interface.sh``. In order to run the web_interface correctly, the high-level modules core_reader and ethernet_client should be ready and working. To run the ``web_interface`` one should connect to the access point of Raspberry Pi from a client computer web browser and visit ``http://<IP_Address>/jqueryControl2.php`` or ``http://<IP_Address>/jqueryControl.php``.
+					
+*	**high_level_applications :**  This module consists of several high-level applications that are developed for A4MCAR's high-level module (Raspberry Pi). These applications involve: ``touchscreen_display``, ``core_recorder``, ``dummy_loads``, ``ethernet_client``, and ``image_processing``. n order to run the applications, respective Python files could be run or C/C++ binaries could be executed. Also the scripts that are located under scripts folder could be used to initialize some of the applications. In order to set up high_level_applications module dependencies, one should run the setup script and follow the instructions: ``high_level_applications/setup_high_level_applications.sh``.
+									
+*	**models:**  A4MCAR's hardware and software model with Eclipse APP4MC is located in this directory.
+								
+*	**android_application:**  This directory consists of the source files that belong to the A4MCAR's bluetooth based driving application. The source and design files could be used in an Android IDE in order to make tweaks to the application and to generate new .apk files.
+								
+*	**low_level_applications:**  ``low_level_applications`` module involves the source code for the low-level module that are run using a multi-core microcontroller XMOS xCORE-200 eXplorerKIT. The low level applications are responsible for tasks such as sensor driving, actuation, communication, and core monitoring of the A4MCAR. The low_level_applications module could be imported into xTIMEcomposer to make tweaks to the tasks.
+								
+*	**docs:**  Involves documentation and Sphinx-generated how-to-setup manual.
+	
 
 *******************************
 High-Level Applications Setup
