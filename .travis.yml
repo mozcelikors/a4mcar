@@ -14,7 +14,6 @@ script:
   - sphinx-build -b html docs/howtosetup/source/ docs/howtosetup/build/
   - cd docs/howtosetup
   - make html
-  - rm ./build/html/CNAME
 
 deploy:
   provider: pages
