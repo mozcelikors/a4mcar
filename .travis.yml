@@ -1,0 +1,24 @@
+language: python
+
+python:
+  - 3.6
+
+before_install:
+  - sudo apt-get install python-pip
+  
+install:  
+  - pip install sphinx
+
+script:
+  - sphinx-build -b html docs/howtosetup/source/ docs/howtosetup/build/
+  - cd docs/howtosetup
+  - make html
+  - rm ./build/html/CNAME
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $mytoken
+  local_dir: ./build/html/
+  on:
+    branch: master
