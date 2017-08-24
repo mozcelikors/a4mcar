@@ -1,3 +1,5 @@
+# This is for building automatically using a Travis docker, and then deploying to Github Pages
+
 language: python
 
 python:
