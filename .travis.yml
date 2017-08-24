@@ -8,6 +8,7 @@ before_install:
   
 install:  
   - pip install sphinx
+  - pip install sphinx_rtd_theme
 
 script:
   - sphinx-build -b html docs/howtosetup/source/ docs/howtosetup/build/
