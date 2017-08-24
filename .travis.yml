@@ -18,7 +18,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  github_token: $GITHUB_TOKEN #Create token from Github and Set in travis-ci.org dashboard
   local_dir: ./docs/howtosetup/build/html/
   on:
     branch: master
