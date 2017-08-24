@@ -28,7 +28,7 @@ Documentations
 ==============
 Two documentations are delivered with A4MCAR project:
   
-* This A4MCAR Introduction and Setup manual that is hosted under `http://a4mcar.readthedocs.io <http://a4mcar.readthedocs.io>`_.
+* This A4MCAR Introduction and Setup manual that is hosted under `https://mozcelikors.github.io/a4mcar/ <https://mozcelikors.github.io/a4mcar/content/intro.html>`_ or `http://a4mcar.readthedocs.io <http://a4mcar.readthedocs.io>`_.
 
 * The comprehensive documentation of A4MCAR which address research focuses can be accessed using `This PDF <https://gitlab.idial.institute/RPublic/A4mcar_documentation/raw/master/a4mcar_documentation.pdf>`_
 
