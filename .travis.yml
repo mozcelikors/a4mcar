@@ -25,4 +25,4 @@ deploy:
   on:
     branch: master
     
-# In conf.py, be sure to add: extensions = [sphinx.ext.githubpages]
+# In conf.py, be sure to add: extensions = ['sphinx.ext.githubpages']
