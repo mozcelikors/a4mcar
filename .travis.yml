@@ -23,4 +23,4 @@ deploy:
   on:
     branch: master
     
-# Be sure to add .nojekyll to gh-pages repo once deployed.
+# In conf.py, be sure to add: extensions = [sphinx.ext.githubpages]
