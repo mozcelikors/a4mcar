@@ -4,4 +4,4 @@ _build/
 *vscode*
 *pyc
 *~
-[Bb]uild/
+docs/howtosetup/build/*
