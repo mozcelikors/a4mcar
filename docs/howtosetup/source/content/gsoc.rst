@@ -27,3 +27,12 @@ During his master studies and `Google Summer of Code 2017 participation <https:/
 In order to learn more about the project or download the source code of **A4MCAR** and **Rover** projects, go to the link :ref:`AccessingTheProject`.
 
 To see the commits done to the project, please follow the link `http://git.eclipse.org/c/app4mc/org.eclipse.app4mc.examples.git/log/ <http://git.eclipse.org/c/app4mc/org.eclipse.app4mc.examples.git/log/>`_.
+
+Development Workflow
+**********************************
+Check out the open-source development workflow that we have adopted from the figure below:
+
+.. image:: ../a4mcarstatic/img/a4mcarworkflow.png
+   :width: 100%
+   :align: center
+   :alt: a4mcarstatic/img/a4mcarworkflow.png
