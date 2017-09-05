@@ -47,3 +47,7 @@ External Links
 * `APP4MC-based project accepted for Google Summer of Code 2017 <https://www.eclipse.org/app4mc/news/2017-05-23_GSOC_Rover2017/>`_
 
 * `PolarSys Rover User Story: Application Platform Project for MultiCore (APP4MC) <https://www.polarsys.org/polarsys-rover-user-story-application-platform-project-multicore-app4mc>`_
+
+* `IoT Playground EclipseCon Europe 2016 APP4MC Entry <https://www.eclipsecon.org/europe2016/playground>`_
+
+* `IoT Playground EclipseCon Europe 2017 Wiki Entry <https://wiki.eclipse.org/IoT_Playground_ECE_2017>`_
