@@ -40,6 +40,8 @@ External Links
 
 * `APP4MC Project Wiki <https://wiki.eclipse.org/APP4MC>`_
   
+* `Rover Extensive Documentation <https://app4mc-rover.github.io/rover-docs>`_
+  
 * `Rover Project Wiki <https://wiki.eclipse.org/APP4MC/Rover>`_
 
 * `Google Summer of Code 2017 Ideas Wiki - Eclipse.org <https://wiki.eclipse.org/Google_Summer_of_Code_2017_Ideas>`_
