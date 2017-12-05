@@ -44,6 +44,8 @@ External Links
   
 * `Rover Project Wiki <https://wiki.eclipse.org/APP4MC/Rover>`_
 
+* `PolarSys Rover Receives Technology Transfer from A4MCAR Project <https://www.polarsys.org/polarsys-rover-receives-technology-transfer-a4mcar-project>`_
+
 * `Google Summer of Code 2017 Ideas Wiki - Eclipse.org <https://wiki.eclipse.org/Google_Summer_of_Code_2017_Ideas>`_
 
 * `APP4MC-based project accepted for Google Summer of Code 2017 <https://www.eclipse.org/app4mc/news/2017-05-23_GSOC_Rover2017/>`_
